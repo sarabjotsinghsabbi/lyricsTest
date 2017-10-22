@@ -1,0 +1,4 @@
+.navbar { margin-bottom: 0; border-radius: 0; }
+footer { background-color: #f2f2f2; padding: 25px; }
+.navbar-brand{ font-size: 30px; font-style: italic; font-weight: bold;}
+.jumbotron{min-height:480px;}
