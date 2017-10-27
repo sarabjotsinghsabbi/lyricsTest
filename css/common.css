@@ -3,8 +3,34 @@ footer { background-color: #f2f2f2; padding: 25px; }
 .navbar-brand{ font-size: 30px; font-style: italic; font-weight: bold;}
 .jumbotron{min-height:480px; background: white; padding: 15px 0;}
 .navbar-inverse .navbar-brand{color:white;}
-h2{color: #4267b2;}
+h2{text-align:left;}
 h4{font-weight: bold; text-align: left;}
-.jumbotron p{font-size: 16px; color:#4261c2;}
+.jumbotron h3{color:#4261c2;}
 .jumbotron a{cursor: pointer; text-decoration: none; }
-.jumbotron a img{height: 146px;}
+.jumbotron a img{height: 186px;}
+.hitSongsDiv{padding-right: 0;}
+.hitSongs{list-style-type: none;height: 400px;text-align: left; padding-left:0;}
+.hitSongs h3{background: black; color: white; padding: 15px 5px; text-align: left; border-bottom: 8px solid white;}
+.hitSongs a:first-of-type li{border-top: 2px solid gray;}
+.hitSongs img{height:48px !important; margin-right:20px;}
+.hitSongs li{height: 50px; vertical-align: middle; background: #f6f6f3; border-bottom: 2px solid gray; color: black; font-weight: bold;}
+.hitSongs li:hover{background-color:#4261c2; color:white;}
+
+
+@media only screen and (max-device-width:767px){
+.jumbotron h3{font-size:12px;}
+.jumbotron .col-sm-6 {margin-right:0;}
+.hitSongs{min-height: 590px;}
+#recent-loaded-songs-div {position: relative; top: -30px;}
+#recent-loaded-songs-div h2{font-size: 20px; text-align: center; font-weight: bold;}
+}
+@media only screen and (min-device-width:768px){
+.jumbotron .caption{padding:10px 0;}
+.jumbotron h3{font-size:18px; margin-bottom:0;}
+#recent-loaded-songs-div h2{font-weight: bold; position:relative; left:20px;}
+#recent-loaded-songs-div .thumbnail{min-height:275px;}
+}
+@media only screen and (min-device-width:1024px){
+	.hitSongsDiv{padding-right: 13px;}
+	.hitSongs{padding-left:15px;}
+}
